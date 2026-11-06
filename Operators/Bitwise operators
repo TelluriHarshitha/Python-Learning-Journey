@@ -1,0 +1,50 @@
+#Bitwise operators -->These are the operators used to perform the operations on bits
+#they are used to operate on binary numbers
+
+a=2  #10
+b=3  #11
+ 
+1.AND  (&) 
+# if both bits are 1  ---> returns 1 here we perform multiplication on bits.
+print(a & b)
+
+#10
+#11
+#-----
+#10 ---> returns 2 (both bits are 1 -->1 otherwise 0.)
+
+2.OR  (|)
+#if anyone bit  is 1 returns 1 ,otherwise 0. perform addition
+
+print(a |b)
+
+#10 -->2
+#11 --->3
+#----------------------
+#11---->3 (anyone bit is 1 return 1,otherwise 0.)
+
+3.XOR (^)
+#if both bits are same either 1,1 or 0,0 returns 0.otherwise 1.
+
+#10  --->2
+#11  ----->3
+#------------------------
+#01 ------->1
+
+print(a^b)
+
+
+#4.Bitwise NOT(~)
+#it performs 2's compilment ~x = -(x+1)
+a=10
+b=-5
+print(~a)
+print(~b)
+
+#5.Shift Operators;
+#left shift operators:(<<) adding zeros to right side. a<<b(a*2^b)
+#right shift operators:(>>) adding zeros to left side. a>>b(a/2^b)
+a=10
+b=20
+print(a<<b)
+print(a>>b)
