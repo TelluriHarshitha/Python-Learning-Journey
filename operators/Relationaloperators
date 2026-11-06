@@ -1,1 +1,22 @@
+#Relational operators  ---->This operator is used to compare the two  values or to find the relation between the two variables.
+
+#These Operators returns only True or False (Only Boolean Values.)
+
+
+a=10
+b=20
+c=True
+
+print(a<b) #10<20 -->True
+
+print(a<=b) #10<=20 --->True
+
+print(a>b) #10>20 ---->False
+
+print(a>=b)  #10>=20---->False
+
+print(a==b) #10==20 --->False
+
+print(a!=b)  #10 !=20 --->True
+
 
