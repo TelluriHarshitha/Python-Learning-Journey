@@ -1,1 +1,23 @@
+#Assignment operators ---->it is used to assign the value of right side of the expresssion to the left side.
+
+a=10
+b=a
+print(b)
+
+b -= a
+print(b)
+
+b *= a
+print(b)
+
+b += a
+print(b)
+
+b /= a
+print(b)
+
+b %= a
+print(b)
+
+
 
