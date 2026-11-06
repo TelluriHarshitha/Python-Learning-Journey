@@ -1,0 +1,12 @@
+#Membership operator is used to test  if the sequence is present in an object or whether the value or variable is in sequence.
+a=10
+b=20
+print(a in b)#error bcoz there is anything to search inside them
+
+a=[10,20,30,40]
+print(a in b) #error bcoz a is list cant find in b integer.
+print(b in a)
+
+#we can also use this in conditional statements
+if b in a:
+print("we can perform membership operators only on the collections")
