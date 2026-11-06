@@ -1,0 +1,12 @@
+#Identity operators --->These are the operators used to test the objects.whether they two variables are located in same memory or not.
+
+a=10
+b=10
+print(a is b) #true bcoz python reuses the  memory so it will point to same memory location
+
+#Is operator is refer not to compare with the values
+a=[1,2,3,4]
+b=[1,2,3,4]
+c=a
+print(a is b)#false bcoz it is located in different location even when the data is same.
+print(a is c)#pointing to same memory location
