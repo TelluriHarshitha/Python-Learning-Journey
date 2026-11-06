@@ -1,1 +1,12 @@
+#Operators --->An operator is a symbol which is used to perform a particular task.
+#it is used to perform operations on values and variables.
 
+#There are 7 types of operators.
+
+1.Arthmetic operators
+2.Relational Operators
+3.Logical Operators
+4.Bitwise Operators
+5.Assignment Operators
+6.Membership Operators
+7.Identity Operators
