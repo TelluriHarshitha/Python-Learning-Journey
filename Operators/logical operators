@@ -1,0 +1,19 @@
+#Logical operators -->These are the operators is used to combine the Conditional statements.
+
+#These operators returns the result as True or False.
+
+a=True
+b=False
+print(a and b) #True and True -->True
+print(a or b) #True orFalse -->True
+print(not b) #not True -->False
+
+#By using the  Relational operators we can do the logical operations
+
+a=10
+b=20
+print(a<=10 and a%2==0)  #True
+
+print(a <10 or a != 20) #True 
+
+print(not(a<3 or a>20)) #true
