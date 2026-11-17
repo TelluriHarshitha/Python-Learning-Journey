@@ -19,17 +19,17 @@ if amount>=5000:
   discount=amount*0.2
   amount=amount-discount
   print("The final amount to pay is",amount)
-  print("you got",discount,"% discount")
+  print("you got",discount,"discount")
 elif amount>=3000:
   discount=amount*0.1
   amount=amount-discount
   print("The final amount to pay is",amount)
-  print("You got",discount,"% discount")
+  print("You got",discount,"discount")
 elif amount>=1000:
   discount=amount*0.05
   amount=amount-discount
   print("The final amount to pay is",amount)
-  print("You got",discount,"% discount")
+  print("You got",discount,"discount")
 else:
   print("No discount applicable")
   
