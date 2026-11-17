@@ -12,11 +12,12 @@ case 3:
 default:
   it is like else block '''
 
-choice=int(input("Select the option to perform"))
+print("-----onine shopping appilicaton")
 print("1.Login")
 print("2.Register")
 print("3.View products")
 print("4.exit")
+choice=int(input("Select the option to perform"))
 match choice:
    case 1:
      user=input("Do you have an account yes/no")
