@@ -1,1 +1,19 @@
+Flowcontrol Statements in python are used to control the order in which statements executed in the program.
 
+By default in python,the program executes from top to bottom by sequentially,sometimes we need to make a decisions like to so the task 5 times repeatedly ,
+or one time in a program based on the condition.
+
+This flowcontrol statements help us to achieve this by providing different ways to manage the program execution.
+
+Lets see the real time applications.
+Example:In shopping app
+1.checks the customer credentials to login ---->Here we use the conditional statements
+after login 
+2.Browse all the available products  and add them to cart ---->Use Looping statements (To perform same task,multiple times)
+3.Skip if you found any out of stock products --->jumping statements
+
+
+Example 2:In ATM app
+for login credentials -->conditional statements
+for transactions (Check balance,withdraw,deposit,check balance again)-->looping statements
+when the user selects the exit by stoping the transaction loop---jumping statements
