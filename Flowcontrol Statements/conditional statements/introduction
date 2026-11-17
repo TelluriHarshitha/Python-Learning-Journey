@@ -1,1 +1,15 @@
+Conditional statements are the decision making statements in python that allows a program to execute a different blocks of code based on the condition
 
+Why we need the conditional statements ---
+
+what if we dont use the conditional statements 
+Example:A customer orders a product which is out of stock.
+
+if we dont use conditioanl statement in shopping app,
+it cannot choose correctly whether to accept or reject the order based on the  stock availability.
+
+this leads to incorrect application behaviour.
+
+Example:in shopping app,
+If the product is available --place an order
+otherwise: displays the product is out of stock
