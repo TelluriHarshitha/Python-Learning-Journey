@@ -1,6 +1,6 @@
 '''match-case is a decision making statement in python is used forr menu driven application or to deal with predesigned conditions
  It is used to compare a value against multiple patterns and execute the corresponding block when a pattern matches.
-syntax: 
+syntax: '''
 
 match(userinput):
 case 1:
