@@ -1,5 +1,8 @@
 '''for loop is a flowcontrol statement used to iterate over a sequence and execute a block  of code
+for is mainly used in squence type of collections like strings,tuple,range etc..
 for mainly used when the number of iterations is known
+
+
 
 mainly for loop is used in sequence data structures.
 syntax:
