@@ -6,7 +6,7 @@ print("While is used to iterate")
 i=1
 while i<=5:
   print(i)
-i=i+1
+  i=i+1
 
 print("while is used to when user want to stop")
 choice=input("Enter the use input")
