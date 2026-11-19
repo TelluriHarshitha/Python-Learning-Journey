@@ -1,5 +1,5 @@
 def range_numbers(n):
-  for i in range(0,num+1):
+  for i in range(0,n+1):
     if i==10:
       continue
       if i==15:
