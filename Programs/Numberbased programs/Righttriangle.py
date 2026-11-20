@@ -10,3 +10,12 @@ def rightpattern(n):
     print(' '*n-i,'*'*i)
 num=int(input("Enter number of rows"))
 rightpattern(num)
+
+#by using the while loop
+rows=int(input("Enter number of rows"))
+row_no=1
+while row_no<=rows:
+  print(''*(rows-row_no),'*'*row_no) 
+
+  row_no=row_no+1
+
