@@ -7,9 +7,9 @@ def hollowsquare(n):
   for r in range(n):
     for c in range(n):    
       if r==0 or r==(n-1):
-        print('*'*n)
+        print('*',end='')
       elif c==0 or c==(n-1):
-        print('*'*n)
+        print('*',end='')
       else:
         print(' ',end='')
       print()
