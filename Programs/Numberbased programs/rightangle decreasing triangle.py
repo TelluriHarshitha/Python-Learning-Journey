@@ -1,6 +1,6 @@
 def rightangledec(n):
   for i in range(0,n):
-    print(' '*i,'*'*n-i)
+    print(' '*i,'*'*(n-i))
 num=int(input("enter number of rows"))
 rightangledec(num)
 
