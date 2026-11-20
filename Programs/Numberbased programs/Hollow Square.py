@@ -12,6 +12,6 @@ def hollowsquare(n):
         print('*',end='')
       else:
         print(' ',end='')
-      print()
+    print()
 num=int(input("Enter a number of rows"))
 hollowsquare(num)
