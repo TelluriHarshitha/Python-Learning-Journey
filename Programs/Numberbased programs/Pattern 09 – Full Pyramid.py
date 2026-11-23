@@ -16,7 +16,7 @@ def fullpyramid(n):
 num=int(input("Enter number of rows"))
 fullpyramid(num)
 
-#by using while loop
+#by using while loop timec omplexity is o(n^2),space complexity -o(n)[because of we storing in temporary space]
 rows=int(input("Enter the number of rows"))
 row_no=1
 while row_no<=rows:
