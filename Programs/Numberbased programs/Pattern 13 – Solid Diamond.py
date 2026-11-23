@@ -17,15 +17,12 @@ def solidalmond(n):
   else:
     for i in range(1,n+1):
       if i<middle:
-        print(' '*
-
-
+        print(' '*(middle-i)+'*'*(2*i-1))
       elif i>middle:
-        
-
+         print(' '* (i-middle)+'*'*(2*n-2*i+1))
       else:
         print('*'*n) 
 num=int(input("Enter the number of rows"))
-res=solidalmond(num)
-print(res)
+solidalmond(num)
+
   
