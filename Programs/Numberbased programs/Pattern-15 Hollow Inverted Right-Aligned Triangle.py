@@ -13,6 +13,6 @@ def invertedrighthollow(n):
     elif i==n:
       print(' '*(n-i)+'*')
     else:
-      print('' '*(i-1)+'*'+' '*(n-i-1)+'*')
+      print(' '*(i-1)+'*'+' '*(n-i-1)+'*')
 num=int(input())
 invertedrighthollow(num)
