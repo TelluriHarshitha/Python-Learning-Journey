@@ -8,7 +8,7 @@ Pattern 03 – Decreasing Number Triangle.
 '''
 def decreasingnumber(n):
   for i in range(1,n+1):
-    for j in range(1,n-i+1):
+    for j in range(1,n-i+2):
       print(j,end='')
     print()
 num=int(input("Enter number of rows"))
